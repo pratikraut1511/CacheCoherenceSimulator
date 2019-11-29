@@ -1,0 +1,136 @@
+===== 506 Personal information =====
+Pratik Suresh Raut
+UnityID 200322512
+ECE492 Students? NO
+===== 506 SMP Simulator configuration =====
+L1_SIZE                   : 8192
+L1_ASSOC                  : 8
+L1_BLOCKSIZE              : 64
+NUMBER OF PROCESSORS      : 4
+COHERENCE PROTOCOL        : MESI
+TRACE FILE                : ./trace/canneal.04t.debug
+MESI objected created
+
+=====cache 0 contents=====
+Set  0: 		  348e6a 1 7 0 S	  349194 1 2 0 S	  34b76e 1 8 0 S	  3482a0 1 6 0 S	  35a380 1 5 0 S	  2e6276 1 4 0 S	  31f0ed 1 0 0 M	  326a68 1 1 0 S	
+Set  1: 		  2e6276 1 3 0 S	  3482a0 1 7 0 S	  3bdaa6 1 6 0 S	  349ee1 1 5 0 S	  3475ed 1 2 0 S	  316526 1 1 1 M	  34beb4 1 0 0 S	  0 0 9 0 I	
+Set  2: 		  28596f 1 4 0 S	  1e1f9b 1 6 0 S	  34ceeb 1 3 0 S	  3bfcd4 1 2 0 S	  348938 1 1 0 S	  67a84 1 0 0 S	  37d359 1 5 0 S	  34d8ec 1 7 0 E	
+Set  3: 		  28596f 1 1 0 S	  37a278 1 0 0 S	  34884a 1 8 0 S	  3bc4a5 1 6 0 S	  1e1f9b 1 5 0 S	  37d359 1 4 0 S	  285990 1 3 0 S	  32f604 1 2 0 S	
+Set  4: 		  28596f 1 0 0 S	  285975 1 4 0 S	  3bdaa5 1 1 0 S	  285990 1 3 0 S	  3bdaa6 1 9 0 S	  32466a 1 2 1 M	  3bdaa1 1 7 0 S	  34ba33 1 6 0 S	
+Set  5: 		  32c95f 1 5 0 S	  28596f 1 3 0 S	  28598e 1 4 0 S	  285975 1 1 0 S	  285990 1 2 0 S	  3bdaa5 1 0 0 S	  3bdaa1 1 7 0 S	  34875b 1 6 0 S	
+Set  6: 		  348de8 1 6 0 S	  3be966 1 5 0 S	  285975 1 7 0 S	  349a68 1 2 0 S	  34cd7a 1 4 0 S	  38365c 1 3 0 S	  2c4b9d 1 1 0 S	  3bc309 1 0 0 S	
+Set  7: 		  38365c 1 2 0 S	  28598f 1 5 0 S	  3bdaa6 1 4 0 S	  32582a 1 1 0 S	  34b852 1 0 0 S	  34176b 1 7 0 S	  3bdaa1 1 8 0 S	  329759 1 3 1 M	
+Set  8: 		  2c4b9d 1 1 0 S	  3bdaa1 1 5 0 S	  3496ec 1 3 0 S	  32adb5 1 7 0 S	  28598d 1 6 0 S	  325b68 1 2 1 M	  34b399 1 4 0 E	  285974 1 0 0 S	
+Set  9: 		  34a393 1 10 0 S	  285974 1 0 0 S	  349a6b 1 9 0 S	  3bdaa1 1 5 0 S	  34b940 1 7 0 S	  379501 1 6 0 S	  34911f 1 1 0 S	  332798 0 2 0 I	
+Set  10: 		  285974 1 0 0 S	  37d707 1 3 0 S	  3bdaa5 1 6 0 S	  35aaa3 1 8 0 S	  3bdaa1 1 4 0 S	  34cd78 1 1 0 S	  0 0 10 0 I	  0 0 10 0 I	
+Set  11: 		  31b8c9 1 3 0 S	  390884 1 0 0 M	  285974 1 1 0 S	  330c55 1 4 1 M	  31ab6a 1 9 0 S	  2bfc4b 1 7 0 S	  332fc7 1 6 1 M	  31146a 1 2 1 M	
+Set  12: 		  390884 1 1 0 M	  285974 1 2 0 S	  3bdaa4 1 5 0 S	  332fc7 1 4 1 M	  32ec31 1 3 0 S	  34775c 1 6 0 E	  38711a 1 0 0 S	  2bfc4b 1 7 0 S	
+Set  13: 		  390884 1 0 0 M	  348f6b 1 3 0 S	  67a86 1 1 0 S	  32ec31 1 2 1 M	  3bdaa1 1 6 0 S	  3bdaa4 1 7 0 S	  3bdaa7 1 5 0 S	  348849 1 4 0 S	
+Set  14: 		  33ee88 1 9 0 E	  285990 1 1 0 S	  390884 1 3 0 E	  285974 1 8 0 S	  3bdaa1 1 6 0 S	  322f68 1 2 1 M	  2bfc4b 1 4 0 S	  3be960 1 0 0 S	
+Set  15: 		  34775e 1 3 1 M	  1eb917 1 1 0 S	  3bc427 1 0 0 S	  33ee88 1 8 1 M	  3bdaa1 1 7 0 E	  2bfc4b 1 6 0 S	  3bdaa4 1 5 0 S	  349569 1 2 0 S	
+============ Simulation results (Cache 0) ============
+01. number of reads:                   2339
+02. number of read misses:             231
+03. number of writes:                  269
+04. number of write misses:            3
+05. total miss rate:                   8.97%
+06. number of writebacks:              5
+07. number of cache-to-cache transfers:174
+08. number of memory transactions:     65
+09. number of interventions:           43
+10. number of invalidations:           34
+11. number of flushes:                 0
+12. number of BusRdX:                  3
+
+=====cache 1 contents=====
+Set  0: 		  348e6a 1 3 0 S	  3482a0 1 7 0 S	  35a380 1 6 0 S	  2e6276 1 5 0 S	  32356b 1 1 1 M	  326a68 1 0 0 S	  3be960 1 8 0 S	  34b76e 1 4 0 S	
+Set  1: 		  3482a0 1 8 0 S	  3bdaa6 1 6 0 S	  321968 1 7 1 M	  349ee1 1 1 0 S	  3475ed 1 5 0 S	  32ff68 1 0 1 M	  2e6276 1 3 0 S	  34beb4 1 2 0 S	
+Set  2: 		  37d359 1 7 0 S	  349ee1 1 0 0 S	  28596f 1 6 0 S	  3bfcd4 1 2 0 S	  34b6f7 1 1 0 S	  34bdf2 1 5 0 S	  31497e 1 4 1 M	  67a84 1 3 0 S	
+Set  3: 		  349df1 1 2 0 S	  37a278 1 0 0 S	  37d359 1 8 0 S	  28596f 1 4 0 S	  3bdaa6 1 6 0 E	  285990 1 7 0 S	  34884a 1 5 0 S	  32f604 1 1 0 S	
+Set  4: 		  34ba33 1 5 0 S	  28596f 1 1 0 S	  285975 1 4 0 S	  285990 1 3 0 S	  32f604 1 2 1 M	  3bdaa5 1 0 0 S	  3bdaa6 1 9 0 S	  3bdaa1 1 6 0 S	
+Set  5: 		  285990 1 4 0 S	  285975 1 3 0 S	  32c95f 1 2 0 S	  3bdaa5 1 0 0 S	  3bdaa1 1 7 0 S	  34875b 1 1 0 S	  28598e 1 6 0 S	  28596f 1 5 0 S	
+Set  6: 		  2c4b9d 1 1 0 S	  349a68 1 3 0 S	  3bc309 1 0 0 S	  3bdaa5 1 7 0 S	  348de8 1 5 0 S	  31ab06 1 6 1 M	  3be966 1 4 0 S	  34cd7a 1 2 0 S	
+Set  7: 		  34176b 1 8 0 S	  3bdaa1 1 9 0 S	  2d9982 1 3 1 M	  38365c 1 6 0 S	  3bdaa6 1 1 0 S	  28598f 1 4 0 S	  348196 1 2 0 S	  32582a 1 0 0 S	
+Set  8: 		  2c4b9d 1 0 0 S	  3496ec 1 7 0 S	  285974 1 2 0 S	  347669 1 3 0 S	  28598d 1 6 0 S	  32adb5 1 5 0 S	  3bdaa1 1 1 0 S	  2bfc4b 1 9 0 S	
+Set  9: 		  2d9980 1 5 0 E	  34911f 1 4 0 S	  285974 1 0 0 S	  332798 0 1 0 I	  349a6b 1 10 0 S	  3bdaa1 1 7 0 S	  34b940 1 8 0 S	  379501 1 2 0 S	
+Set  10: 		  2a68f3 1 10 1 M	  285974 1 0 0 S	  31cb0c 1 3 0 M	  35aaa3 1 5 0 S	  3bdaa5 1 8 0 S	  37d707 1 7 0 S	  34cd78 1 2 0 S	  3bdaa1 1 1 0 S	
+Set  11: 		  390890 1 0 0 M	  317de6 1 3 1 M	  31cb0c 1 5 1 M	  285974 1 2 0 S	  2bfc4b 1 4 0 S	  332979 0 1 0 I	  34b866 1 9 0 S	  31ab6a 1 6 0 S	
+Set  12: 		  390890 1 1 0 M	  3bdaa4 1 2 0 S	  285974 1 3 0 S	  38711a 1 0 0 S	  34a30c 1 7 0 S	  31c15c 1 6 1 M	  2bfc4b 1 4 0 S	  311bdc 1 5 1 M	
+Set  13: 		  390890 1 1 0 M	  348f6b 1 3 0 S	  67a86 1 0 0 S	  31c15c 1 2 1 M	  3bdaa4 1 7 0 S	  3bdaa1 1 6 0 S	  3bdaa7 1 5 0 S	  348849 1 4 0 S	
+Set  14: 		  3bdaa1 1 7 0 S	  2bfc4b 1 3 0 S	  285990 1 1 0 S	  390890 1 2 0 E	  3be960 1 0 0 S	  0 0 8 0 I	  0 0 8 0 I	  0 0 8 0 I	
+Set  15: 		  320835 1 6 1 M	  2bfc4b 1 5 0 S	  3bdaa4 1 4 0 S	  1eb917 1 1 0 S	  3bc427 1 0 0 S	  349569 1 2 0 S	  0 0 7 0 I	  0 0 7 0 I	
+============ Simulation results (Cache 1) ============
+01. number of reads:                   2341
+02. number of read misses:             228
+03. number of writes:                  229
+04. number of write misses:            2
+05. total miss rate:                   8.95%
+06. number of writebacks:              8
+07. number of cache-to-cache transfers:159
+08. number of memory transactions:     79
+09. number of interventions:           41
+10. number of invalidations:           34
+11. number of flushes:                 0
+12. number of BusRdX:                  2
+
+=====cache 2 contents=====
+Set  0: 		  34b76e 1 9 0 S	  3bfcd5 1 8 0 S	  348e6a 1 7 0 S	  35a380 1 6 0 S	  3482a0 1 5 0 S	  2e6276 1 4 0 S	  34ef78 1 1 0 S	  326a68 1 0 0 S	
+Set  1: 		  34beb4 1 0 0 S	  326968 1 4 1 M	  3bdaa6 1 9 0 S	  2d9983 1 1 0 E	  2e6276 1 2 0 S	  349ee1 1 8 0 S	  3475ed 1 7 0 S	  321bc8 1 6 1 M	
+Set  2: 		  67a84 1 3 0 S	  3bfcd4 1 1 0 S	  34bdf2 1 0 0 S	  348938 1 5 0 S	  37d359 1 6 0 S	  1e1f9b 1 7 0 S	  28596f 1 4 0 S	  34b6f7 1 2 0 S	
+Set  3: 		  34884a 1 3 0 S	  37d359 1 6 0 S	  285990 1 5 0 S	  37a278 1 0 0 S	  32f604 1 1 0 S	  3bc4a5 1 8 0 S	  1e1f9b 1 7 0 S	  28596f 1 4 0 S	
+Set  4: 		  34ba33 1 3 0 S	  3bdaa5 1 0 0 S	  3202e5 1 6 1 M	  285990 1 4 0 S	  28596f 1 2 0 S	  285975 1 5 0 S	  3498df 1 8 0 E	  3bdaa1 1 7 0 S	
+Set  5: 		  32317f 1 7 0 M	  3bdaa5 1 0 0 S	  34875b 1 4 0 S	  28598e 1 6 0 S	  28596f 1 5 0 S	  285975 1 2 0 S	  285990 1 3 0 S	  32c95f 1 1 0 S	
+Set  6: 		  34cd7a 1 2 0 S	  2c4b9d 1 1 0 S	  3bdaa5 1 6 0 S	  3bc309 1 0 0 S	  285975 1 8 0 S	  348de8 1 3 0 S	  3be966 1 5 0 S	  349a68 1 4 0 S	
+Set  7: 		  34bd3f 1 8 0 S	  34176b 1 2 0 S	  3bdaa6 1 1 0 S	  38365c 1 4 0 S	  331e29 1 7 1 M	  32582a 1 0 0 S	  28598f 1 6 0 S	  3482a1 1 9 0 E	
+Set  8: 		  2c4b9d 1 1 0 S	  28598d 1 6 0 S	  285974 1 4 0 S	  3bdaa1 1 2 0 S	  32adb5 1 0 0 S	  349868 1 8 0 S	  34176b 1 5 1 M	  3496ec 1 7 0 S	
+Set  9: 		  285974 1 0 0 S	  332798 1 1 1 M	  349a6b 1 7 0 S	  32be6a 1 6 1 M	  3bdaa1 1 5 0 S	  32adb5 1 4 1 M	  34911f 1 3 0 S	  3148ff 1 2 1 M	
+Set  10: 		  285974 1 0 0 S	  3bdaa5 1 4 0 S	  35aaa3 1 7 0 S	  32345a 1 6 1 M	  37d707 1 5 0 S	  327c68 1 3 1 M	  34cd78 1 1 0 S	  0 0 9 0 I	
+Set  11: 		  285974 1 3 0 S	  39078c 1 0 0 M	  332979 0 1 0 I	  3be3f6 1 10 0 S	  34b866 1 9 0 S	  31913a 1 6 1 M	  31ab6a 1 5 0 S	  2bfc4b 1 2 0 S	
+Set  12: 		  39078c 1 1 0 M	  28596c 1 7 0 S	  285974 1 6 0 S	  38711a 1 0 0 S	  3be3f6 1 5 0 S	  34a30c 1 4 0 S	  3bdaa4 1 2 0 S	  2bfc4b 1 3 0 S	
+Set  13: 		  67a86 1 0 0 S	  39078c 1 2 0 M	  3bdaa4 1 6 0 S	  3bdaa1 1 5 0 S	  3bdaa7 1 4 0 S	  348849 1 3 0 S	  348f6b 1 1 0 S	  0 0 9 0 I	
+Set  14: 		  3bdaa1 1 8 0 S	  396f88 1 2 1 M	  285990 1 1 0 S	  39078c 1 3 0 E	  2bfc4b 1 4 0 S	  3be960 1 0 0 S	  0 0 9 0 I	  0 0 9 0 I	
+Set  15: 		  1eb917 1 1 0 S	  3bc427 1 0 0 S	  2bfc4b 1 6 0 S	  370c5e 1 5 0 E	  3bdaa4 1 4 0 S	  349569 1 2 0 S	  0 0 7 0 I	  0 0 7 0 I	
+============ Simulation results (Cache 2) ============
+01. number of reads:                   2396
+02. number of read misses:             215
+03. number of writes:                  253
+04. number of write misses:            2
+05. total miss rate:                   8.19%
+06. number of writebacks:              5
+07. number of cache-to-cache transfers:151
+08. number of memory transactions:     71
+09. number of interventions:           42
+10. number of invalidations:           35
+11. number of flushes:                 0
+12. number of BusRdX:                  2
+
+=====cache 3 contents=====
+Set  0: 		  34b76e 1 7 0 S	  348e6a 1 6 0 S	  319269 1 1 0 S	  3482a0 1 5 0 S	  326a68 1 2 0 S	  35a380 1 0 0 S	  34ef78 1 9 0 S	  3be960 1 8 0 S	
+Set  1: 		  3475ed 1 5 0 S	  3be3f5 1 3 0 E	  3bdaa6 1 7 0 S	  38f1fb 1 8 0 E	  3482a0 1 0 0 S	  34beb4 1 1 0 S	  3496ec 1 9 0 E	  349ee1 1 6 0 S	
+Set  2: 		  348de8 1 7 0 S	  1e1f9b 1 1 0 S	  348938 1 5 0 S	  34b6f7 1 4 0 S	  34bdf2 1 3 0 S	  3bfcd4 1 2 0 S	  37d359 1 0 0 S	  67a84 1 6 0 S	
+Set  3: 		  1e1f9b 1 1 0 S	  37d359 1 0 0 S	  3bdaa1 1 7 0 S	  32f604 1 4 0 S	  34884a 1 6 0 S	  313069 1 5 1 M	  37a278 1 3 0 S	  3bc4a5 1 2 0 S	
+Set  4: 		  28596f 1 0 0 S	  3bdaa5 1 1 0 S	  285975 1 10 0 S	  285990 1 9 0 S	  3bdaa4 1 8 0 S	  3bdaa6 1 7 0 S	  3bdaa1 1 4 0 S	  34ba33 1 3 0 S	
+Set  5: 		  34875b 1 4 0 S	  32c95f 1 3 0 S	  28596f 1 0 0 S	  3bdaa5 1 2 0 S	  28598e 1 1 0 S	  32106b 1 7 1 M	  3bdaa6 1 6 0 S	  3bdaa1 1 5 0 S	
+Set  6: 		  396f8b 1 3 1 M	  34b87b 1 4 0 S	  3bc309 1 0 0 S	  3be966 1 7 0 S	  349a68 1 6 0 S	  34cd7a 1 5 0 S	  28598e 1 2 0 E	  2c4b9d 1 1 0 S	
+Set  7: 		  32c869 1 4 1 M	  3bdaa1 1 8 0 S	  38365c 1 5 0 S	  3bdaa6 1 2 0 S	  32cb33 1 7 0 S	  396f89 1 1 0 E	  32582a 1 0 0 S	  34176b 1 6 0 S	
+Set  8: 		  28598d 1 0 0 S	  2bfc4b 1 7 0 S	  2c4b9d 1 1 0 S	  3148fe 1 6 1 M	  3bdaa1 1 2 0 S	  32d36a 1 9 1 M	  3496ec 1 5 0 S	  32adb5 1 4 0 S	
+Set  9: 		  332798 0 0 0 I	  285974 1 4 0 S	  349a6b 1 10 0 S	  3bdaa5 1 8 0 E	  3bdaa1 1 5 0 S	  34b940 1 6 0 S	  379501 1 7 0 S	  34911f 1 2 0 S	
+Set  10: 		  285974 1 1 0 S	  37d707 1 0 0 S	  3bdaa5 1 5 0 S	  35aaa3 1 7 0 S	  322e0e 1 3 1 M	  34cd78 1 2 0 S	  0 0 9 0 I	  0 0 9 0 I	
+Set  11: 		  3907a0 1 0 0 M	  285974 1 1 0 S	  31b8c9 1 11 0 S	  3be3f6 1 9 0 S	  34b866 1 7 0 S	  31ab6a 1 3 0 S	  2bfc4b 1 4 0 S	  332979 1 2 1 M	
+Set  12: 		  285974 1 3 0 S	  3907a0 1 1 0 M	  2bfc4b 1 5 0 S	  34a30c 1 6 0 S	  3bdaa4 1 4 0 S	  28596c 1 2 0 S	  38711a 1 0 0 S	  3be3f6 1 7 0 S	
+Set  13: 		  3907a0 1 0 0 M	  3bdaa7 1 4 0 S	  67a86 1 1 0 S	  348849 1 3 0 S	  348f6b 1 2 0 S	  32adb6 1 8 1 M	  3bdaa1 1 5 0 S	  3bdaa4 1 6 0 S	
+Set  14: 		  316210 1 4 1 M	  285990 1 1 0 S	  2bfc4b 1 2 0 S	  3be960 1 0 0 S	  323f99 1 8 1 M	  32df69 1 7 1 M	  3bdaa1 1 6 0 S	  32ea5e 1 5 1 M	
+Set  15: 		  1eb917 1 1 0 S	  3bc427 1 0 0 S	  31ad69 1 6 0 E	  2bfc4b 1 5 0 S	  3bdaa4 1 4 0 S	  319268 1 3 1 M	  349569 1 2 0 S	  0 0 7 0 I	
+============ Simulation results (Cache 3) ============
+01. number of reads:                   1969
+02. number of read misses:             232
+03. number of writes:                  204
+04. number of write misses:            0
+05. total miss rate:                   10.68%
+06. number of writebacks:              10
+07. number of cache-to-cache transfers:132
+08. number of memory transactions:     110
+09. number of interventions:           70
+10. number of invalidations:           32
+11. number of flushes:                 0
+12. number of BusRdX:                  0
