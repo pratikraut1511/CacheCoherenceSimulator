@@ -14,7 +14,7 @@ INPUT=./trace/canneal.04t.longTrace
 for TYPE in 0 1 2
 do
 	mkdir ./report/${TYPE}_size_variation
-	for SIZE in 256 512 1024 2048
+	for SIZE in 262144 524288 1048576 2097152‬
 	do
 		FILE="./report/${TYPE}_size_variation/output_${SIZE}_${ASSOC}_${BLOCK}_${PROC}_${TYPE}.txt"	
 		./smp_cache $SIZE $ASSOC $BLOCK $PROC $TYPE $INPUT > $FILE
